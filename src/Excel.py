@@ -7,7 +7,6 @@ __github__ = "https://github.com/hbk01/"
 
 from sys import argv
 
-
 class ExcelTools:
     """ Excel tools by hbk """
 
@@ -71,10 +70,7 @@ class ExcelTools:
                 dictionary[head[i]] = temp[i]
             data.append(dictionary)
 
-        if json_file is not None:
-            json.dump(data, open(json_file, "w"))
-
-        json_string = json.dumps(data)
+        if json_file is not None:OrderedDict
         return json_string  # type: str
 
     @staticmethod
@@ -158,6 +154,8 @@ class ExcelTools:
             workbook.save(excel_file)
         pass
 
+    def Excel2Text(excel_file, sheet_index_or_name, json_file=None):
+        pass
 
 def main(args):
     print("1. Json to Excel")
@@ -187,8 +185,8 @@ def main(args):
         print(json_string)
     elif select == "3":
         print("Text to Excel")
-        text_file = "../out/stu.txt"
-        excel_file = "../out/out.xls"
+        text_file = "./out/stu.txt"
+        excel_file = "./out/out.xls"
 
         ExcelTools.Text2Excel(text_file, excel_file, "sheet1")
         pass
