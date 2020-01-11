@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="158b04df-ec0e-421b-9391-ef9640adea9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/stu.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Excel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +89,14 @@
       <option name="presentableId" value="Default" />
       <updated>1578302337374</updated>
     </task>
+    <task id="LOCAL-00001" summary="add Excel to Text function">
+      <created>1578732499481</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578732499481</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +111,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="add Excel to Text function" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Excel to Text function" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -143,10 +149,18 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="496" y="252" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1366.732@0.0.1366.732" timestamp="1578304564682" />
-    <state x="307" y="0" key="CommitChangelistDialog2" timestamp="1578732483599">
+    <state x="307" y="0" key="CommitChangelistDialog2" timestamp="1578733684462">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="307" y="0" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1578732483599" />
+    <state x="307" y="0" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1578733684462" />
+    <state width="389" height="442" key="Diff.GoToChangePopup" timestamp="1578733454877">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="389" height="442" key="Diff.GoToChangePopup/0.0.1366.732@0.0.1366.732" timestamp="1578733454877" />
+    <state x="99" y="99" width="1168" height="534" maximized="true" key="DiffContextDialog" timestamp="1578733629117">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="99" y="99" width="1168" height="534" maximized="true" key="DiffContextDialog/0.0.1366.732@0.0.1366.732" timestamp="1578733629117" />
     <state x="560" y="242" width="288" height="206" key="Github.ShareDialog" timestamp="1578729133387">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
@@ -191,10 +205,14 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="93" y="0" width="1093" height="732" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1578731493003" />
-    <state x="484" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578729483124">
+    <state x="282" y="96" key="Vcs.Push.Dialog.v2" timestamp="1578732565068">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="484" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.732@0.0.1366.732" timestamp="1578729483124" />
+    <state x="282" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.732@0.0.1366.732" timestamp="1578732565068" />
+    <state x="484" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578733663519">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="484" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.732@0.0.1366.732" timestamp="1578733663519" />
     <state x="388" y="153" key="git4idea.merge.GitPullDialog" timestamp="1578729540668">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
