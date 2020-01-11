@@ -10,6 +10,7 @@ from sys import argv
 
 class ExcelTools:
     """ Excel tools by hbk """
+
     @staticmethod
     def Excel2Json(excel_file, sheet_index_or_name, json_file=None):
         """
@@ -162,16 +163,64 @@ class ExcelTools:
         pass
 
     @staticmethod
-    def Excel2Text(excel_file, sheet_index_or_name, text_file=None):
+    def Excel2Text(excel_file: str, sheet_index_or_name, text_file: str = None, item_separator=" "):
         """
         Excel to Text
-        :param excel_file: 
-        :param sheet_index_or_name: 
-        :param text_file: 
-        :return: 
+        :param excel_file:excel file path
+        :param sheet_index_or_name: the excel sheet name or index(started by 0)
+        :param text_file: output text file path
+        :param item_separator: characters used to separate each item in text file, it's default to a space
+        :return: a string
         """
-        print("hello")
-        pass
+        # import package
+        import xlrd
+
+        workbook = xlrd.open_workbook(excel_file)
+        try:
+            sheet_index = int(sheet_index_or_name)
+            sheet = workbook.sheet_by_index(sheet_index)
+        except ValueError:
+            sheet = workbook.sheet_by_name(sheet_index_or_name)
+
+        first_row = sheet.first_visible_rowx  # 行
+        first_col = sheet.first_visible_colx  # 列
+
+        print("first cell [" + str(first_row) + ", " + str(first_col) + "]")
+
+        head = []
+        string = ""
+        last_col = 0
+        max_data = 9999
+
+        # get title data
+        for col in range(first_col, first_col + max_data):
+            try:
+                value = sheet.cell_value(first_row, col)
+                head.append(value)
+            except IndexError:
+                last_col = col
+                break
+
+        print("find head " + str(head))
+        string += item_separator.join(head) + "\n"
+
+        for row in range(first_row + 1, first_row + max_data):
+            temp = []
+            for col in range(first_col, last_col):
+                try:
+                    value = sheet.cell_value(row, col)
+                    temp.append(value)
+                except IndexError:
+                    break
+            # temp.length = 0, it's no data
+            if len(temp) == 0:
+                break
+            print("find data " + str(temp))
+            string += item_separator.join(temp) + "\n"
+        if text_file is not None:
+            with open(text_file, "w", encoding="utf-8") as file:
+                file.write(string)
+        return string
 
 
 def main(args):
@@ -211,7 +260,8 @@ def main(args):
     elif select == "4":
         print("Excel to Text")
         excel_file = "./out/out.xls"
-        ExcelTools.Excel2Text(excel_file, "")
+        text_file = "./out/out.txt"
+        ExcelTools.Excel2Text(excel_file, 0, text_file, "-")
         pass
     else:
         print("Error selection. Exited program.")
