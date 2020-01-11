@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="158b04df-ec0e-421b-9391-ef9640adea9e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W11Yug7gZI3tfo00O6GOFet4zd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="template.copyright.formatting" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/out" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="excel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Excel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Excel" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="158b04df-ec0e-421b-9391-ef9640adea9e" name="Default Changelist" comment="" />
+      <created>1578302337374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578302337374</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="278" y="12" key="#Custom_Plugin_Repositories" timestamp="1578722199446">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="278" y="12" key="#Custom_Plugin_Repositories/0.0.1366.732@0.0.1366.732" timestamp="1578722199446" />
+    <state x="311" y="7" width="802" height="689" key="#Inspections" timestamp="1578721844405">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="311" y="7" width="802" height="689" key="#Inspections/0.0.1366.732@0.0.1366.732" timestamp="1578721844405" />
+    <state x="278" y="27" width="802" height="689" key="#Vim_Emulation" timestamp="1578661379372">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="278" y="27" width="802" height="689" key="#Vim_Emulation/0.0.1366.732@0.0.1366.732" timestamp="1578661379372" />
+    <state x="324" y="195" width="755" height="310" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1578625241117">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="324" y="195" width="755" height="310" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.732@0.0.1366.732" timestamp="1578625241117" />
+    <state x="161" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578622010486">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="161" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.732@0.0.1366.732" timestamp="1578622010486" />
+    <state x="348" y="114" width="612" height="575" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1578626197420">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="348" y="114" width="612" height="575" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.0.1366.732@0.0.1366.732" timestamp="1578626197420" />
+    <state x="444" y="192" key="#com.intellij.tools.ToolEditorDialog" timestamp="1578625461213">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="444" y="192" key="#com.intellij.tools.ToolEditorDialog/0.0.1366.732@0.0.1366.732" timestamp="1578625461213" />
+    <state x="496" y="252" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1578304564682">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="496" y="252" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1366.732@0.0.1366.732" timestamp="1578304564682" />
+    <state width="1142" height="214" key="GridCell.Tab.0.bottom" timestamp="1578665321339">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1142" height="214" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1578665321339" />
+    <state width="1142" height="214" key="GridCell.Tab.0.center" timestamp="1578665321338">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1142" height="214" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1578665321338" />
+    <state width="1142" height="214" key="GridCell.Tab.0.left" timestamp="1578665321337">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1142" height="214" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1578665321337" />
+    <state width="1142" height="214" key="GridCell.Tab.0.right" timestamp="1578665321338">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1142" height="214" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1578665321338" />
+    <state width="1343" height="281" key="GridCell.Tab.1.bottom" timestamp="1578582139345">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1343" height="281" key="GridCell.Tab.1.bottom/0.0.1366.732@0.0.1366.732" timestamp="1578582139345" />
+    <state width="1343" height="281" key="GridCell.Tab.1.center" timestamp="1578582139344">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1343" height="281" key="GridCell.Tab.1.center/0.0.1366.732@0.0.1366.732" timestamp="1578582139344" />
+    <state width="1343" height="281" key="GridCell.Tab.1.left" timestamp="1578582139344">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1343" height="281" key="GridCell.Tab.1.left/0.0.1366.732@0.0.1366.732" timestamp="1578582139344" />
+    <state width="1343" height="281" key="GridCell.Tab.1.right" timestamp="1578582139345">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1343" height="281" key="GridCell.Tab.1.right/0.0.1366.732@0.0.1366.732" timestamp="1578582139345" />
+    <state x="246" y="26" key="Registry" timestamp="1578579187920">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="246" y="26" key="Registry/0.0.1366.732@0.0.1366.732" timestamp="1578579187920" />
+    <state x="93" y="0" width="1093" height="732" key="SettingsEditor" timestamp="1578722871061">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="93" y="0" width="1093" height="732" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1578722871061" />
+    <state x="346" y="53" width="672" height="678" key="search.everywhere.popup" timestamp="1578579154480">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="346" y="53" width="672" height="678" key="search.everywhere.popup/0.0.1366.732@0.0.1366.732" timestamp="1578579154480" />
+  </component>
+</project>
