@@ -7,9 +7,9 @@ __github__ = "https://github.com/hbk01/"
 
 from sys import argv
 
+
 class ExcelTools:
     """ Excel tools by hbk """
-
     @staticmethod
     def Excel2Json(excel_file, sheet_index_or_name, json_file=None):
         """
@@ -70,8 +70,11 @@ class ExcelTools:
                 dictionary[head[i]] = temp[i]
             data.append(dictionary)
 
-        if json_file is not None:OrderedDict
-        return json_string  # type: str
+        if json_file is not None:
+            json.dump(data, open(json_file, "w"))
+
+        json_string = json.dumps(data)
+        return json_string
 
     @staticmethod
     def Json2Excel(json_file, excel_file, sheet_name):
@@ -88,7 +91,8 @@ class ExcelTools:
         import xlwt
         import json
 
-        json_array = json.load(open(json_file, 'r'), object_pairs_hook=OrderedDict)
+        json_array = json.load(open(json_file, 'r'),
+                               object_pairs_hook=OrderedDict)
         print("\nLoad Json: " + str(json_array))
 
         workbook = xlwt.Workbook()
@@ -132,7 +136,10 @@ class ExcelTools:
 
             for content in contents:
                 # create a function to delete '\n'
-                fun = lambda x: x.replace("\n", "")
+                # fun = lambda x: x.replace("\n", "")
+                def fun(x):
+                    return x.replace("\n", "")
+
                 line = list(map(fun, content.split(item_separator)))
                 data.append(line)
                 print("Load Text: " + str(line))
@@ -154,15 +161,26 @@ class ExcelTools:
             workbook.save(excel_file)
         pass
 
-    def Excel2Text(excel_file, sheet_index_or_name, json_file=None):
+    @staticmethod
+    def Excel2Text(excel_file, sheet_index_or_name, text_file=None):
+        """
+        Excel to Text
+        :param excel_file: 
+        :param sheet_index_or_name: 
+        :param text_file: 
+        :return: 
+        """
+        print("hello")
         pass
+
 
 def main(args):
     print("1. Json to Excel")
     print("2. Excel to Json")
     print("3. Text to Excel")
+    print("4. Excel to Text")
     # select = input("select: ")
-    select = "3"
+    select = "4"
     if select == "1":
         print("Json to Excel")
         json_file = input("Set Json File: ")
@@ -178,8 +196,9 @@ def main(args):
         print(json_file)
         # json_file = "main.json"
         # excel_file = "out.xls"
-        if json_file is not "":
-            json_string = ExcelTools.Excel2Json(excel_file, input_sheet, json_file=json_file)
+        if json_file != "":
+            json_string = ExcelTools.Excel2Json(
+                excel_file, input_sheet, json_file=json_file)
         else:
             json_string = ExcelTools.Excel2Json(excel_file, input_sheet)
         print(json_string)
@@ -187,8 +206,12 @@ def main(args):
         print("Text to Excel")
         text_file = "./out/stu.txt"
         excel_file = "./out/out.xls"
-
         ExcelTools.Text2Excel(text_file, excel_file, "sheet1")
+        pass
+    elif select == "4":
+        print("Excel to Text")
+        excel_file = "./out/out.xls"
+        ExcelTools.Excel2Text(excel_file, "")
         pass
     else:
         print("Error selection. Exited program.")
