@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="158b04df-ec0e-421b-9391-ef9640adea9e" name="Default Changelist" comment="remove sys.argv">
-      <change afterPath="$PROJECT_DIR$/src/exceltest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src.txt" afterDir="false" />
+    <list default="true" id="158b04df-ec0e-421b-9391-ef9640adea9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/out.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/out.xls" beforeDir="false" afterPath="$PROJECT_DIR$/test/src.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Excel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +41,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -246,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578815866231</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add unit test">
+      <created>1578823134767</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578823134767</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,10 +281,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <MESSAGE value="add Excel to Text function" />
     <MESSAGE value="add out.txt" />
     <MESSAGE value="remove sys.argv" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove sys.argv" />
+    <MESSAGE value="add unit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add unit test" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -327,18 +331,18 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="496" y="252" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1366.732@0.0.1366.732" timestamp="1578304564682" />
-    <state x="307" y="0" key="CommitChangelistDialog2" timestamp="1578820036844">
+    <state x="307" y="0" key="CommitChangelistDialog2" timestamp="1578823134515">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="307" y="0" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1578820036844" />
+    <state x="307" y="0" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1578823134515" />
     <state width="389" height="442" key="Diff.GoToChangePopup" timestamp="1578816345980">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state width="389" height="442" key="Diff.GoToChangePopup/0.0.1366.732@0.0.1366.732" timestamp="1578816345980" />
-    <state x="99" y="99" width="1168" height="534" maximized="true" key="DiffContextDialog" timestamp="1578816246337">
+    <state x="99" y="99" width="1168" height="534" maximized="true" key="DiffContextDialog" timestamp="1578823101777">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="99" y="99" width="1168" height="534" maximized="true" key="DiffContextDialog/0.0.1366.732@0.0.1366.732" timestamp="1578816246337" />
+    <state x="99" y="99" width="1168" height="534" maximized="true" key="DiffContextDialog/0.0.1366.732@0.0.1366.732" timestamp="1578823101777" />
     <state x="560" y="242" width="288" height="206" key="Github.ShareDialog" timestamp="1578729133387">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
@@ -379,14 +383,18 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="246" y="26" key="Registry/0.0.1366.732@0.0.1366.732" timestamp="1578579187920" />
-    <state x="86" y="0" width="1093" height="732" key="SettingsEditor" timestamp="1578818676449">
+    <state x="86" y="0" width="1093" height="732" key="SettingsEditor" timestamp="1578824827658">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="86" y="0" width="1093" height="732" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1578818676449" />
-    <state x="282" y="96" key="Vcs.Push.Dialog.v2" timestamp="1578816172292">
+    <state x="86" y="0" width="1093" height="732" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1578824827658" />
+    <state x="556" y="275" key="VCS.EditChangelistDialog" timestamp="1578824267523">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="282" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.732@0.0.1366.732" timestamp="1578816172292" />
+    <state x="556" y="275" key="VCS.EditChangelistDialog/0.0.1366.732@0.0.1366.732" timestamp="1578824267523" />
+    <state x="282" y="96" width="840" height="548" key="Vcs.Push.Dialog.v2" timestamp="1578823361696">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="282" y="96" width="840" height="548" key="Vcs.Push.Dialog.v2/0.0.1366.732@0.0.1366.732" timestamp="1578823361696" />
     <state x="308" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578819687745">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
