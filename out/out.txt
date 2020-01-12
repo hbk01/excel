@@ -1,4 +1,0 @@
-name-age-sex
-hbk-18-boy
-syj-17-boy
-wjx-18-girl

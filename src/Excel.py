@@ -70,7 +70,8 @@ class ExcelTools:
             data.append(dictionary)
 
         if json_file is not None:
-            json.dump(data, open(json_file, "w"))
+            with open(json_file, "w") as file:
+                json.dump(data, file)
 
         json_string = json.dumps(data)
         return json_string
@@ -90,8 +91,8 @@ class ExcelTools:
         import xlwt
         import json
 
-        json_array = json.load(open(json_file, 'r'),
-                               object_pairs_hook=OrderedDict)
+        with open(json_file, 'r') as file:
+            json_array = json.load(file, object_pairs_hook=OrderedDict)
         print("\nLoad Json: " + str(json_array))
 
         workbook = xlwt.Workbook()

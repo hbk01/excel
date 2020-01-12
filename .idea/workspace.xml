@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="158b04df-ec0e-421b-9391-ef9640adea9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <list default="true" id="158b04df-ec0e-421b-9391-ef9640adea9e" name="Default Changelist" comment="remove sys.argv">
+      <change afterPath="$PROJECT_DIR$/src/exceltest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/out.xls" beforeDir="false" afterPath="$PROJECT_DIR$/test/src.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Excel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,30 +19,43 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/hbk01/excel.git" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1W11Yug7gZI3tfo00O6GOFet4zd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/out" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Unittests for exceltest.ExcelTest">
     <configuration name="Excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="excel" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,8 +77,124 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for ExcelTest.ExcelTest.test_excel2text" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="excel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ExcelTest.ExcelTest.test_excel2text&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for ExcelTest.ExcelTest.test_json2excel" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="excel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ExcelTest.ExcelTest.test_json2excel&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for ExcelTest.ExcelTest.test_text2excel" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="excel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ExcelTest.ExcelTest.test_text2excel&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for excel_test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="excel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;excel_test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for excel_test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="excel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;excel_test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for excel_test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="excel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;excel_test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for exceltest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="excel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;exceltest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for exceltest.ExcelTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="excel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;exceltest.ExcelTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for exceltest.ExcelTest" />
+        <item itemvalue="Python tests.Unittests for excel_test" />
+        <item itemvalue="Python tests.Unittests for exceltest" />
+        <item itemvalue="Python tests.Unittests for excel_test" />
         <item itemvalue="Python.Excel" />
       </list>
     </recent_temporary>
@@ -106,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578733690725</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="remove sys.argv">
+      <created>1578815866231</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578815866231</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,11 +261,28 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="me" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add Excel to Text function" />
     <MESSAGE value="add out.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="add out.txt" />
+    <MESSAGE value="remove sys.argv" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove sys.argv" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -150,10 +307,18 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="161" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.732@0.0.1366.732" timestamp="1578730800004" />
+    <state x="100" y="60" width="1166" height="608" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1578820269446">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="100" y="60" width="1166" height="608" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.732@0.0.1366.732" timestamp="1578820269446" />
     <state x="348" y="114" width="612" height="575" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1578626197420">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="348" y="114" width="612" height="575" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.0.1366.732@0.0.1366.732" timestamp="1578626197420" />
+    <state x="346" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578822831555">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="346" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.732@0.0.1366.732" timestamp="1578822831555" />
     <state x="444" y="192" key="#com.intellij.tools.ToolEditorDialog" timestamp="1578625461213">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
@@ -162,66 +327,70 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="496" y="252" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1366.732@0.0.1366.732" timestamp="1578304564682" />
-    <state x="307" y="0" key="CommitChangelistDialog2" timestamp="1578733690635">
+    <state x="307" y="0" key="CommitChangelistDialog2" timestamp="1578820036844">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="307" y="0" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1578733690635" />
-    <state width="389" height="442" key="Diff.GoToChangePopup" timestamp="1578733454877">
+    <state x="307" y="0" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1578820036844" />
+    <state width="389" height="442" key="Diff.GoToChangePopup" timestamp="1578816345980">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="389" height="442" key="Diff.GoToChangePopup/0.0.1366.732@0.0.1366.732" timestamp="1578733454877" />
-    <state x="99" y="99" width="1168" height="534" maximized="true" key="DiffContextDialog" timestamp="1578733758564">
+    <state width="389" height="442" key="Diff.GoToChangePopup/0.0.1366.732@0.0.1366.732" timestamp="1578816345980" />
+    <state x="99" y="99" width="1168" height="534" maximized="true" key="DiffContextDialog" timestamp="1578816246337">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="99" y="99" width="1168" height="534" maximized="true" key="DiffContextDialog/0.0.1366.732@0.0.1366.732" timestamp="1578733758564" />
+    <state x="99" y="99" width="1168" height="534" maximized="true" key="DiffContextDialog/0.0.1366.732@0.0.1366.732" timestamp="1578816246337" />
     <state x="560" y="242" width="288" height="206" key="Github.ShareDialog" timestamp="1578729133387">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="560" y="242" width="288" height="206" key="Github.ShareDialog/0.0.1366.732@0.0.1366.732" timestamp="1578729133387" />
-    <state width="1345" height="282" key="GridCell.Tab.0.bottom" timestamp="1578733765137">
+    <state width="1345" height="265" key="GridCell.Tab.0.bottom" timestamp="1578823046610">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1345" height="282" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1578733765137" />
-    <state width="1345" height="282" key="GridCell.Tab.0.center" timestamp="1578733765137">
+    <state width="1345" height="265" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1578823046610" />
+    <state width="1345" height="265" key="GridCell.Tab.0.center" timestamp="1578823046610">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1345" height="282" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1578733765137" />
-    <state width="1345" height="282" key="GridCell.Tab.0.left" timestamp="1578733765136">
+    <state width="1345" height="265" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1578823046610" />
+    <state width="1345" height="265" key="GridCell.Tab.0.left" timestamp="1578823046609">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1345" height="282" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1578733765136" />
-    <state width="1345" height="282" key="GridCell.Tab.0.right" timestamp="1578733765137">
+    <state width="1345" height="265" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1578823046609" />
+    <state width="1345" height="265" key="GridCell.Tab.0.right" timestamp="1578823046610">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1345" height="282" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1578733765137" />
-    <state width="1345" height="282" key="GridCell.Tab.1.bottom" timestamp="1578733765138">
+    <state width="1345" height="265" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1578823046610" />
+    <state width="1345" height="254" key="GridCell.Tab.1.bottom" timestamp="1578820901637">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1345" height="282" key="GridCell.Tab.1.bottom/0.0.1366.732@0.0.1366.732" timestamp="1578733765138" />
-    <state width="1345" height="282" key="GridCell.Tab.1.center" timestamp="1578733765138">
+    <state width="1345" height="254" key="GridCell.Tab.1.bottom/0.0.1366.732@0.0.1366.732" timestamp="1578820901637" />
+    <state width="1345" height="254" key="GridCell.Tab.1.center" timestamp="1578820901637">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1345" height="282" key="GridCell.Tab.1.center/0.0.1366.732@0.0.1366.732" timestamp="1578733765138" />
-    <state width="1345" height="282" key="GridCell.Tab.1.left" timestamp="1578733765137">
+    <state width="1345" height="254" key="GridCell.Tab.1.center/0.0.1366.732@0.0.1366.732" timestamp="1578820901637" />
+    <state width="1345" height="254" key="GridCell.Tab.1.left" timestamp="1578820901637">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1345" height="282" key="GridCell.Tab.1.left/0.0.1366.732@0.0.1366.732" timestamp="1578733765137" />
-    <state width="1345" height="282" key="GridCell.Tab.1.right" timestamp="1578733765138">
+    <state width="1345" height="254" key="GridCell.Tab.1.left/0.0.1366.732@0.0.1366.732" timestamp="1578820901637" />
+    <state width="1345" height="254" key="GridCell.Tab.1.right" timestamp="1578820901637">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1345" height="282" key="GridCell.Tab.1.right/0.0.1366.732@0.0.1366.732" timestamp="1578733765138" />
+    <state width="1345" height="254" key="GridCell.Tab.1.right/0.0.1366.732@0.0.1366.732" timestamp="1578820901637" />
     <state x="246" y="26" key="Registry" timestamp="1578579187920">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="246" y="26" key="Registry/0.0.1366.732@0.0.1366.732" timestamp="1578579187920" />
-    <state x="150" y="0" width="1093" height="732" key="SettingsEditor" timestamp="1578815638698">
+    <state x="86" y="0" width="1093" height="732" key="SettingsEditor" timestamp="1578818676449">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="150" y="0" width="1093" height="732" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1578815638698" />
-    <state x="282" y="96" key="Vcs.Push.Dialog.v2" timestamp="1578732565068">
+    <state x="86" y="0" width="1093" height="732" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1578818676449" />
+    <state x="282" y="96" key="Vcs.Push.Dialog.v2" timestamp="1578816172292">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="282" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.732@0.0.1366.732" timestamp="1578732565068" />
+    <state x="282" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.732@0.0.1366.732" timestamp="1578816172292" />
+    <state x="308" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578819687745">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="308" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.732@0.0.1366.732" timestamp="1578819687745" />
     <state x="484" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578733663519">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
