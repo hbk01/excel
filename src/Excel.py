@@ -5,8 +5,6 @@ __author__ = "hbk"
 __email__ = "3243430237@qq.com"
 __github__ = "https://github.com/hbk01/"
 
-from sys import argv
-
 
 class ExcelTools:
     """ Excel tools by hbk """
@@ -137,9 +135,9 @@ class ExcelTools:
 
             for content in contents:
                 # create a function to delete '\n'
-                # fun = lambda x: x.replace("\n", "")
-                def fun(x):
-                    return x.replace("\n", "")
+                fun = lambda x: x.replace("\n", "")
+                # def fun(x):
+                #     return x.replace("\n", "")
 
                 line = list(map(fun, content.split(item_separator)))
                 data.append(line)
@@ -223,7 +221,7 @@ class ExcelTools:
         return string
 
 
-def main(args):
+def main():
     print("1. Json to Excel")
     print("2. Excel to Json")
     print("3. Text to Excel")
@@ -269,4 +267,4 @@ def main(args):
 
 
 if __name__ == '__main__':
-    main(argv)
+    main()
