@@ -90,7 +90,7 @@ class ExcelTools:
                     temp.append(value)
                 except IndexError:
                     break
-            # temp.length = 0, it's no data
+            # temp.length = 0, it's not have data
             if len(temp) == 0:
                 break
             print("find data " + str(temp))
@@ -164,13 +164,12 @@ class ExcelTools:
         data = []
         with open(text_file, "r", encoding=text_file_encoding) as file:
             contents = file.readlines()
-
             for content in contents:
                 # create a function to delete '\n'
                 fun = lambda x: x.replace("\n", "")
+                # it's equals to :
                 # def fun(x):
                 #     return x.replace("\n", "")
-
                 line = list(map(fun, content.split(item_separator)))
                 data.append(line)
                 print("Load Text: " + str(line))
@@ -179,18 +178,18 @@ class ExcelTools:
             workbook.add_sheet(sheet_name, cell_overwrite_ok=True)
             sheet = workbook.get_sheet(0)
 
-            # 写入首行
+            # write the first line
             for i, item in enumerate(data[0]):
                 sheet.write(0, i, item)
                 print("%d/%d : %s" % (0, i, item))
 
+            # write all data without first line
             for row, item in enumerate(data[1:]):
                 for col, text in enumerate(item):
                     print("%d/%d : %s" % (row + 1, col, text))
                     sheet.write(row + 1, col, text)
                 row += 1
             workbook.save(excel_file)
-        pass
 
     @staticmethod
     def Excel2Text(excel_file, sheet_index_or_name, text_file=None, item_separator=" "):
