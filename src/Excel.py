@@ -193,7 +193,7 @@ class ExcelTools:
         pass
 
     @staticmethod
-    def Excel2Text(excel_file: str, sheet_index_or_name, text_file: str = None, item_separator=" "):
+    def Excel2Text(excel_file, sheet_index_or_name, text_file=None, item_separator=" "):
         """
         Excel to Text
         :param excel_file:excel file path
@@ -253,50 +253,3 @@ class ExcelTools:
         return string
 
 
-def main():
-    print("1. Json to Excel")
-    print("2. Excel to Json")
-    print("3. Text to Excel")
-    print("4. Excel to Text")
-    # select = input("select: ")
-    select = "4"
-    if select == "1":
-        print("Json to Excel")
-        json_file = input("Set Json File: ")
-        excel_file = input("Set Excel File: ")
-        # json_file = "main.json"
-        # excel_file = "out.xls"
-        ExcelTools.Json2Excel(json_file, excel_file, sheet_name="sheet1")
-    elif select == "2":
-        print("Excel to Json")
-        excel_file = input("Set Excel File: ")
-        input_sheet = input("Set Sheet Index Or Name: ")
-        json_file = input("Set Json File(can be null): ")
-        print(json_file)
-        # json_file = "main.json"
-        # excel_file = "out.xls"
-        if json_file != "":
-            json_string = ExcelTools.Excel2Json(
-                excel_file, input_sheet, json_file=json_file)
-        else:
-            json_string = ExcelTools.Excel2Json(excel_file, input_sheet)
-        print(json_string)
-    elif select == "3":
-        print("Text to Excel")
-        text_file = "./out/stu.txt"
-        excel_file = "./out/out.xls"
-        ExcelTools.Text2Excel(text_file, excel_file, "sheet1")
-        pass
-    elif select == "4":
-        print("Excel to Text")
-        excel_file = "./out/out.xls"
-        text_file = "./out/out.txt"
-        ExcelTools.Excel2Text(excel_file, 0, text_file, "-")
-        pass
-    else:
-        print("Error selection. Exited program.")
-        exit(1)
-
-
-if __name__ == '__main__':
-    main()
