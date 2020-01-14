@@ -1,7 +1,7 @@
 import hashlib
-import os
 import unittest
 from collections import OrderedDict
+from os import remove
 
 import xlrd
 
@@ -73,13 +73,29 @@ class ExcelTest(unittest.TestCase):
         self.src_json = "../test/src.json"
         self.temp = "../test/temp"
 
+    def test_text2json(self):
+        Excel.ExcelTools.Text2Json(self.src_txt, self.temp)
+        with open(self.src_json, "r") as json, open(self.temp, "r") as text:
+            data_json = json.readlines()
+            data_text = text.readlines()
+            self.assertEqual(data_json, data_text)
+        remove(self.temp)
+
+    def test_json2text(self):
+        Excel.ExcelTools.Json2Text(self.src_json, self.temp)
+        with open(self.src_txt, "r") as src, open(self.temp, "r") as out:
+            data1 = src.readlines()
+            data2 = out.readlines()
+            self.assertEqual(data1, data2)
+        remove(self.temp)
+
     def test_excel2json(self):
         Excel.ExcelTools.Excel2Json(self.src_xls, 0, self.temp)
         with open(self.temp, "r") as file, open(self.src_json, "r") as src:
             data1 = file.readlines()[0]
             data2 = src.readlines()[0]
             self.assertEqual(data1, data2)
-        os.remove(self.temp)
+        remove(self.temp)
 
     def test_excel2text(self):
         Excel.ExcelTools.Excel2Text(self.src_xls, 0, self.temp)
@@ -87,21 +103,21 @@ class ExcelTest(unittest.TestCase):
             data1 = file.readlines()
             data2 = src.readlines()
             self.assertEqual(data1, data2)
-        os.remove(self.temp)
+        remove(self.temp)
 
     def test_json2excel(self):
         Excel.ExcelTools.Json2Excel(self.src_json, self.temp, "sheet")
         xls_temp = read_excel(self.temp)
         xls_src = read_excel(self.src_xls)
         self.assertEqual(xls_temp, xls_src)
-        os.remove(self.temp)
+        remove(self.temp)
 
     def test_text2excel(self):
         Excel.ExcelTools.Text2Excel(self.src_txt, self.temp, "sheet")
         xls_temp = read_excel(self.temp)
         xls_src = read_excel(self.src_xls)
         self.assertEqual(xls_temp, xls_src)
-        os.remove(self.temp)
+        remove(self.temp)
 
 
 if __name__ == '__main__':

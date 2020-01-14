@@ -10,6 +10,37 @@ class ExcelTools:
     """ Excel tools by hbk """
 
     @staticmethod
+    def Text2Json(text_file, json_file, text_file_encoding="utf-8", item_separator=" "):
+        """
+        Text to Json
+        :param text_file: text file path
+        :param json_file: json file path
+        :param text_file_encoding: text file charset
+        :param item_separator: text file item separator
+        :return: None
+        """
+        from os import remove
+        temp = "./temp.xls"
+        ExcelTools.Text2Excel(text_file, temp, "sheet", item_separator, text_file_encoding)
+        ExcelTools.Excel2Json(temp, "sheet", json_file)
+        remove(temp)
+
+    @staticmethod
+    def Json2Text(json_file, text_file, item_separator=" "):
+        """
+        Json to Text
+        :param json_file: json file path
+        :param text_file: text file path
+        :param item_separator: text item separator
+        :return: None
+        """
+        from os import remove
+        temp = "./temp.xls"
+        ExcelTools.Json2Excel(json_file, temp, "sheet")
+        ExcelTools.Excel2Text(temp, "sheet", text_file, item_separator)
+        remove(temp)
+
+    @staticmethod
     def Excel2Json(excel_file, sheet_index_or_name, json_file=None):
         """
         Excel to Json.
