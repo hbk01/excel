@@ -90,10 +90,10 @@ class ExcelTest(unittest.TestCase):
         remove(self.temp)
 
     def test_excel2json(self):
-        Excel.ExcelTools.Excel2Json(self.src_xls, 0, self.temp)
+        Excel.ExcelTools.Excel2Json(self.src_xls, 0, self.temp, indent=2)
         with open(self.temp, "r") as file, open(self.src_json, "r") as src:
-            data1 = file.readlines()[0]
-            data2 = src.readlines()[0]
+            data1 = file.readlines()
+            data2 = src.readlines()
             self.assertEqual(data1, data2)
         remove(self.temp)
 

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="158b04df-ec0e-421b-9391-ef9640adea9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceltest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceltest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -53,7 +52,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Gui">
+  <component name="RunManager" selected="Python tests.Unittests for exceltest.ExcelTest">
     <configuration name="Excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="excel" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,48 +66,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Excel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="excel" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Gui.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="excel" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,6 +102,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for exceltest.ExcelTest.test_excel2json" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="excel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;exceltest.ExcelTest.test_excel2json&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for exceltest.ExcelTest.test_json2text" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="excel" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,12 +130,18 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.Excel" />
+      <item itemvalue="Python tests.Unittests for excel_test" />
+      <item itemvalue="Python tests.Unittests for exceltest.ExcelTest" />
+      <item itemvalue="Python tests.Unittests for exceltest.ExcelTest.test_json2text" />
+      <item itemvalue="Python tests.Unittests for exceltest.ExcelTest.test_excel2json" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Gui" />
-        <item itemvalue="Python.Tree" />
-        <item itemvalue="Python.Excel" />
         <item itemvalue="Python tests.Unittests for exceltest.ExcelTest" />
+        <item itemvalue="Python.Excel" />
+        <item itemvalue="Python tests.Unittests for exceltest.ExcelTest.test_excel2json" />
         <item itemvalue="Python tests.Unittests for exceltest.ExcelTest.test_json2text" />
       </list>
     </recent_temporary>
@@ -258,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578983027882</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="remove main: used unittest">
+      <created>1579000890085</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1579000890086</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -310,10 +294,11 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="278" y="12" key="#Custom_Plugin_Repositories/0.0.1366.732@0.0.1366.732" timestamp="1578722199446" />
-    <state x="311" y="7" width="802" height="689" key="#Inspections" timestamp="1578721844405">
-      <screen x="0" y="0" width="1366" height="732" />
+    <state x="350" y="7" width="802" height="689" key="#Inspections" timestamp="1579401808639">
+      <screen x="50" y="0" width="1316" height="768" />
     </state>
     <state x="311" y="7" width="802" height="689" key="#Inspections/0.0.1366.732@0.0.1366.732" timestamp="1578721844405" />
+    <state x="350" y="7" key="#Inspections/50.0.1316.768@50.0.1316.768" timestamp="1579401808639" />
     <state x="278" y="27" width="802" height="689" key="#Vim_Emulation" timestamp="1578815762907">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
@@ -322,15 +307,20 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="324" y="195" width="755" height="310" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.732@0.0.1366.732" timestamp="1578625241117" />
-    <state x="161" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578829877948">
-      <screen x="0" y="0" width="1366" height="732" />
+    <state x="205" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579405177817">
+      <screen x="50" y="0" width="1316" height="768" />
     </state>
     <state x="161" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.732@0.0.1366.732" timestamp="1578829877948" />
-    <state x="146" y="63" width="1124" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1578981983591">
+    <state x="205" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog/50.0.1316.768@50.0.1316.768" timestamp="1579405177817" />
+    <state x="146" y="63" width="1124" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1579405723681">
       <screen x="50" y="0" width="1316" height="768" />
     </state>
     <state x="100" y="60" width="1166" height="608" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.732@0.0.1366.732" timestamp="1578820269446" />
-    <state x="146" y="63" width="1124" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/50.0.1316.768@50.0.1316.768" timestamp="1578981983591" />
+    <state x="146" y="63" width="1124" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/50.0.1316.768@50.0.1316.768" timestamp="1579405723681" />
+    <state x="412" y="230" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1579401992809">
+      <screen x="50" y="0" width="1316" height="768" />
+    </state>
+    <state x="412" y="230" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/50.0.1316.768@50.0.1316.768" timestamp="1579401992809" />
     <state x="348" y="114" width="612" height="575" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1578626197420">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
@@ -347,63 +337,63 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="496" y="252" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1366.732@0.0.1366.732" timestamp="1578304564682" />
-    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1578983027801">
+    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1579000889924">
       <screen x="50" y="0" width="1316" height="768" />
     </state>
     <state x="307" y="0" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1578828992136" />
-    <state x="280" y="0" key="CommitChangelistDialog2/50.0.1316.768@50.0.1316.768" timestamp="1578983027801" />
+    <state x="280" y="0" key="CommitChangelistDialog2/50.0.1316.768@50.0.1316.768" timestamp="1579000889924" />
     <state width="389" height="442" key="Diff.GoToChangePopup" timestamp="1578816345980">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state width="389" height="442" key="Diff.GoToChangePopup/0.0.1366.732@0.0.1366.732" timestamp="1578816345980" />
-    <state x="99" y="99" width="1168" height="534" maximized="true" key="DiffContextDialog" timestamp="1578829381512">
-      <screen x="0" y="0" width="1366" height="732" />
+    <state x="99" y="99" width="1168" height="534" maximized="true" key="DiffContextDialog" timestamp="1579083167127">
+      <screen x="50" y="0" width="1316" height="768" />
     </state>
     <state x="99" y="99" width="1168" height="534" maximized="true" key="DiffContextDialog/0.0.1366.732@0.0.1366.732" timestamp="1578829381512" />
     <state x="560" y="242" width="288" height="206" key="Github.ShareDialog" timestamp="1578729133387">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="560" y="242" width="288" height="206" key="Github.ShareDialog/0.0.1366.732@0.0.1366.732" timestamp="1578729133387" />
-    <state width="1295" height="247" key="GridCell.Tab.0.bottom" timestamp="1579000735726">
+    <state width="1296" height="250" key="GridCell.Tab.0.bottom" timestamp="1579406198256">
       <screen x="50" y="0" width="1316" height="768" />
     </state>
     <state width="1345" height="222" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1578833967247" />
-    <state width="1295" height="247" key="GridCell.Tab.0.bottom/50.0.1316.768@50.0.1316.768" timestamp="1579000735726" />
-    <state width="1295" height="247" key="GridCell.Tab.0.center" timestamp="1579000735725">
+    <state width="1296" height="250" key="GridCell.Tab.0.bottom/50.0.1316.768@50.0.1316.768" timestamp="1579406198256" />
+    <state width="1296" height="250" key="GridCell.Tab.0.center" timestamp="1579406198255">
       <screen x="50" y="0" width="1316" height="768" />
     </state>
     <state width="1345" height="222" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1578833967247" />
-    <state width="1295" height="247" key="GridCell.Tab.0.center/50.0.1316.768@50.0.1316.768" timestamp="1579000735725" />
-    <state width="1295" height="247" key="GridCell.Tab.0.left" timestamp="1579000735724">
+    <state width="1296" height="250" key="GridCell.Tab.0.center/50.0.1316.768@50.0.1316.768" timestamp="1579406198255" />
+    <state width="1296" height="250" key="GridCell.Tab.0.left" timestamp="1579406198255">
       <screen x="50" y="0" width="1316" height="768" />
     </state>
     <state width="1345" height="222" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1578833967246" />
-    <state width="1295" height="247" key="GridCell.Tab.0.left/50.0.1316.768@50.0.1316.768" timestamp="1579000735724" />
-    <state width="1295" height="247" key="GridCell.Tab.0.right" timestamp="1579000735726">
+    <state width="1296" height="250" key="GridCell.Tab.0.left/50.0.1316.768@50.0.1316.768" timestamp="1579406198255" />
+    <state width="1296" height="250" key="GridCell.Tab.0.right" timestamp="1579406198256">
       <screen x="50" y="0" width="1316" height="768" />
     </state>
     <state width="1345" height="222" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1578833967247" />
-    <state width="1295" height="247" key="GridCell.Tab.0.right/50.0.1316.768@50.0.1316.768" timestamp="1579000735725" />
-    <state width="1295" height="371" key="GridCell.Tab.1.bottom" timestamp="1578999726043">
+    <state width="1296" height="250" key="GridCell.Tab.0.right/50.0.1316.768@50.0.1316.768" timestamp="1579406198256" />
+    <state width="1295" height="371" key="GridCell.Tab.1.bottom" timestamp="1579000960875">
       <screen x="50" y="0" width="1316" height="768" />
     </state>
     <state width="1345" height="222" key="GridCell.Tab.1.bottom/0.0.1366.732@0.0.1366.732" timestamp="1578833967248" />
-    <state width="1295" height="371" key="GridCell.Tab.1.bottom/50.0.1316.768@50.0.1316.768" timestamp="1578999726043" />
-    <state width="1295" height="371" key="GridCell.Tab.1.center" timestamp="1578999726042">
+    <state width="1295" height="371" key="GridCell.Tab.1.bottom/50.0.1316.768@50.0.1316.768" timestamp="1579000960875" />
+    <state width="1295" height="371" key="GridCell.Tab.1.center" timestamp="1579000960875">
       <screen x="50" y="0" width="1316" height="768" />
     </state>
     <state width="1345" height="222" key="GridCell.Tab.1.center/0.0.1366.732@0.0.1366.732" timestamp="1578833967248" />
-    <state width="1295" height="371" key="GridCell.Tab.1.center/50.0.1316.768@50.0.1316.768" timestamp="1578999726042" />
-    <state width="1295" height="371" key="GridCell.Tab.1.left" timestamp="1578999726042">
+    <state width="1295" height="371" key="GridCell.Tab.1.center/50.0.1316.768@50.0.1316.768" timestamp="1579000960875" />
+    <state width="1295" height="371" key="GridCell.Tab.1.left" timestamp="1579000960875">
       <screen x="50" y="0" width="1316" height="768" />
     </state>
     <state width="1345" height="222" key="GridCell.Tab.1.left/0.0.1366.732@0.0.1366.732" timestamp="1578833967247" />
-    <state width="1295" height="371" key="GridCell.Tab.1.left/50.0.1316.768@50.0.1316.768" timestamp="1578999726042" />
-    <state width="1295" height="371" key="GridCell.Tab.1.right" timestamp="1578999726043">
+    <state width="1295" height="371" key="GridCell.Tab.1.left/50.0.1316.768@50.0.1316.768" timestamp="1579000960874" />
+    <state width="1295" height="371" key="GridCell.Tab.1.right" timestamp="1579000960875">
       <screen x="50" y="0" width="1316" height="768" />
     </state>
     <state width="1345" height="222" key="GridCell.Tab.1.right/0.0.1366.732@0.0.1366.732" timestamp="1578833967248" />
-    <state width="1295" height="371" key="GridCell.Tab.1.right/50.0.1316.768@50.0.1316.768" timestamp="1578999726043" />
+    <state width="1295" height="371" key="GridCell.Tab.1.right/50.0.1316.768@50.0.1316.768" timestamp="1579000960875" />
     <state x="246" y="26" key="Registry" timestamp="1578579187920">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
@@ -412,11 +402,11 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="454" y="0" key="RollbackChangesDialog/0.0.1366.732@0.0.1366.732" timestamp="1578828943265" />
-    <state x="133" y="0" width="1093" height="732" key="SettingsEditor" timestamp="1578997117088">
+    <state x="133" y="0" width="1047" height="726" key="SettingsEditor" timestamp="1579401767640">
       <screen x="50" y="0" width="1316" height="768" />
     </state>
     <state x="86" y="0" width="1093" height="732" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1578824827658" />
-    <state x="133" y="0" key="SettingsEditor/50.0.1316.768@50.0.1316.768" timestamp="1578997117088" />
+    <state x="133" y="0" width="1047" height="726" key="SettingsEditor/50.0.1316.768@50.0.1316.768" timestamp="1579401767640" />
     <state x="559" y="293" width="290" height="177" key="VCS.ChangelistChooser" timestamp="1578980348986">
       <screen x="50" y="0" width="1316" height="768" />
     </state>
@@ -425,11 +415,11 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="556" y="275" key="VCS.EditChangelistDialog/0.0.1366.732@0.0.1366.732" timestamp="1578824267523" />
-    <state x="322" y="101" width="840" height="548" key="Vcs.Push.Dialog.v2" timestamp="1578982473417">
+    <state x="322" y="101" width="840" height="548" key="Vcs.Push.Dialog.v2" timestamp="1579000900863">
       <screen x="50" y="0" width="1316" height="768" />
     </state>
     <state x="282" y="96" width="840" height="548" key="Vcs.Push.Dialog.v2/0.0.1366.732@0.0.1366.732" timestamp="1578829007027" />
-    <state x="322" y="101" key="Vcs.Push.Dialog.v2/50.0.1316.768@50.0.1316.768" timestamp="1578982473417" />
+    <state x="322" y="101" key="Vcs.Push.Dialog.v2/50.0.1316.768@50.0.1316.768" timestamp="1579000900863" />
     <state x="308" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578819687745">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
@@ -450,5 +440,9 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="346" y="53" width="672" height="678" key="search.everywhere.popup/0.0.1366.732@0.0.1366.732" timestamp="1578579154480" />
+    <state x="437" y="294" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1579405415966">
+      <screen x="50" y="0" width="1316" height="768" />
+    </state>
+    <state x="437" y="294" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/50.0.1316.768@50.0.1316.768" timestamp="1579405415966" />
   </component>
 </project>

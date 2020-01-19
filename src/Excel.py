@@ -10,19 +10,20 @@ class ExcelTools:
     """ Excel tools by hbk """
 
     @staticmethod
-    def Text2Json(text_file, json_file, text_file_encoding="utf-8", item_separator=" "):
+    def Text2Json(text_file, json_file, text_file_encoding="utf-8", item_separator=" ", indent=2):
         """
         Text to Json
         :param text_file: text file path
         :param json_file: json file path
         :param text_file_encoding: text file charset
         :param item_separator: text file item separator
+        :param indent: json format.
         :return: None
         """
         from os import remove
         temp = "./temp.xls"
         ExcelTools.Text2Excel(text_file, temp, "sheet", item_separator, text_file_encoding)
-        ExcelTools.Excel2Json(temp, "sheet", json_file)
+        ExcelTools.Excel2Json(temp, "sheet", json_file, indent=indent)
         remove(temp)
 
     @staticmethod
@@ -41,12 +42,13 @@ class ExcelTools:
         remove(temp)
 
     @staticmethod
-    def Excel2Json(excel_file, sheet_index_or_name, json_file=None):
+    def Excel2Json(excel_file, sheet_index_or_name, json_file=None, indent=2):
         """
         Excel to Json.
         :param excel_file: excel file path.
         :param sheet_index_or_name: what's the sheet
         :param json_file: default is None, if set it's, the json will write to this file.
+        :param indent: json format.
         :return: json string
         """
         # import package
@@ -102,9 +104,9 @@ class ExcelTools:
 
         if json_file is not None:
             with open(json_file, "w") as file:
-                json.dump(data, file)
+                json.dump(data, file, indent=indent)
 
-        json_string = json.dumps(data)
+        json_string = json.dumps(data, indent=indent)
         return json_string
 
     @staticmethod
@@ -250,5 +252,3 @@ class ExcelTools:
             with open(text_file, "w", encoding="utf-8") as file:
                 file.write(string)
         return string
-
-
