@@ -1,4 +1,0 @@
-name age sex address
-hbk 20 boy jxgz
-wjx 18 girl jxxg
-wjl 19 boy jxgz
