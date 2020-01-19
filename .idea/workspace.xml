@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="158b04df-ec0e-421b-9391-ef9640adea9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceltest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceltest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579000890086</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix test XXX2Json json format bug.">
+      <created>1579406516360</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1579406516360</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,7 +291,8 @@
     <MESSAGE value="delete .gitignore" />
     <MESSAGE value="added Text2Json and Json2Text function" />
     <MESSAGE value="remove main: used unittest" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove main: used unittest" />
+    <MESSAGE value="fix test XXX2Json json format bug." />
+    <option name="LAST_COMMIT_MESSAGE" value="fix test XXX2Json json format bug." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -337,11 +344,11 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="496" y="252" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1366.732@0.0.1366.732" timestamp="1578304564682" />
-    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1579000889924">
+    <state x="50" y="0" width="1316" height="768" key="CommitChangelistDialog2" timestamp="1579406516234">
       <screen x="50" y="0" width="1316" height="768" />
     </state>
     <state x="307" y="0" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1578828992136" />
-    <state x="280" y="0" key="CommitChangelistDialog2/50.0.1316.768@50.0.1316.768" timestamp="1579000889924" />
+    <state x="50" y="0" width="1316" height="768" key="CommitChangelistDialog2/50.0.1316.768@50.0.1316.768" timestamp="1579406516234" />
     <state width="389" height="442" key="Diff.GoToChangePopup" timestamp="1578816345980">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
@@ -354,26 +361,26 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="560" y="242" width="288" height="206" key="Github.ShareDialog/0.0.1366.732@0.0.1366.732" timestamp="1578729133387" />
-    <state width="1296" height="250" key="GridCell.Tab.0.bottom" timestamp="1579406198256">
+    <state width="1296" height="250" key="GridCell.Tab.0.bottom" timestamp="1579406868129">
       <screen x="50" y="0" width="1316" height="768" />
     </state>
     <state width="1345" height="222" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1578833967247" />
-    <state width="1296" height="250" key="GridCell.Tab.0.bottom/50.0.1316.768@50.0.1316.768" timestamp="1579406198256" />
-    <state width="1296" height="250" key="GridCell.Tab.0.center" timestamp="1579406198255">
+    <state width="1296" height="250" key="GridCell.Tab.0.bottom/50.0.1316.768@50.0.1316.768" timestamp="1579406868129" />
+    <state width="1296" height="250" key="GridCell.Tab.0.center" timestamp="1579406868128">
       <screen x="50" y="0" width="1316" height="768" />
     </state>
     <state width="1345" height="222" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1578833967247" />
-    <state width="1296" height="250" key="GridCell.Tab.0.center/50.0.1316.768@50.0.1316.768" timestamp="1579406198255" />
-    <state width="1296" height="250" key="GridCell.Tab.0.left" timestamp="1579406198255">
+    <state width="1296" height="250" key="GridCell.Tab.0.center/50.0.1316.768@50.0.1316.768" timestamp="1579406868128" />
+    <state width="1296" height="250" key="GridCell.Tab.0.left" timestamp="1579406868128">
       <screen x="50" y="0" width="1316" height="768" />
     </state>
     <state width="1345" height="222" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1578833967246" />
-    <state width="1296" height="250" key="GridCell.Tab.0.left/50.0.1316.768@50.0.1316.768" timestamp="1579406198255" />
-    <state width="1296" height="250" key="GridCell.Tab.0.right" timestamp="1579406198256">
+    <state width="1296" height="250" key="GridCell.Tab.0.left/50.0.1316.768@50.0.1316.768" timestamp="1579406868128" />
+    <state width="1296" height="250" key="GridCell.Tab.0.right" timestamp="1579406868128">
       <screen x="50" y="0" width="1316" height="768" />
     </state>
     <state width="1345" height="222" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1578833967247" />
-    <state width="1296" height="250" key="GridCell.Tab.0.right/50.0.1316.768@50.0.1316.768" timestamp="1579406198256" />
+    <state width="1296" height="250" key="GridCell.Tab.0.right/50.0.1316.768@50.0.1316.768" timestamp="1579406868128" />
     <state width="1295" height="371" key="GridCell.Tab.1.bottom" timestamp="1579000960875">
       <screen x="50" y="0" width="1316" height="768" />
     </state>
@@ -415,11 +422,11 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="556" y="275" key="VCS.EditChangelistDialog/0.0.1366.732@0.0.1366.732" timestamp="1578824267523" />
-    <state x="322" y="101" width="840" height="548" key="Vcs.Push.Dialog.v2" timestamp="1579000900863">
+    <state x="322" y="101" width="840" height="548" key="Vcs.Push.Dialog.v2" timestamp="1579406524545">
       <screen x="50" y="0" width="1316" height="768" />
     </state>
     <state x="282" y="96" width="840" height="548" key="Vcs.Push.Dialog.v2/0.0.1366.732@0.0.1366.732" timestamp="1578829007027" />
-    <state x="322" y="101" key="Vcs.Push.Dialog.v2/50.0.1316.768@50.0.1316.768" timestamp="1579000900863" />
+    <state x="322" y="101" key="Vcs.Push.Dialog.v2/50.0.1316.768@50.0.1316.768" timestamp="1579406524545" />
     <state x="308" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578819687745">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
