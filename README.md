@@ -1,4 +1,4 @@
-# excel tools for python
+# Excel tools for Python
 #### Excel to Json
 call `Excel2Json()` function.
 #### Excel to Text

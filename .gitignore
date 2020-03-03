@@ -4,6 +4,7 @@
 
 # IntelliJ project files
 .idea
+# vs code project files
 .vscode
 *.iml
 out

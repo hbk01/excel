@@ -168,7 +168,7 @@ class ExcelTools:
             contents = file.readlines()
             for content in contents:
                 # create a function to delete '\n'
-                fun = lambda x: x.replace("\n", "")
+                def fun(x): return x.replace("\n", "")
                 # it's equals to :
                 # def fun(x):
                 #     return x.replace("\n", "")
